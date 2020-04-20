@@ -40,8 +40,7 @@ const UserDetail = (props) => {
           {loading ? (
             <td className='has-text-centered' colSpan='4'>
               <span className='icon'>
-                <i className='fa fa-spinner fa-pulse'></i>
-                loading ....
+                <i className='fas fa-spinner fa-pulse'></i>
               </span>
             </td>
           ) : (
